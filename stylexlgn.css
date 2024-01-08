@@ -1,0 +1,192 @@
+*{
+    margin: 0%;box-sizing: border-box;
+}
+body{
+ background-color: black;
+
+
+ 
+}
+h1{font-family:  Goudy Stout;
+    color: rgb(190, 10, 10);
+    text-shadow: 0 0 5px rgb(253, 252, 254),
+                    0 0 5px rgb(254, 253, 255),
+                    0 0 5px rgb(246, 244, 248),
+                    0 0 5px rgb(251, 250, 253),
+                    0 0 5px rgb(251, 251, 251);
+  
+}
+.form-group{
+    color: rgb(248, 9, 9);
+     margin: auto ;
+font-size: xx-large ;
+}
+
+   
+
+
+header{ display:flex ; 
+   
+
+ height: 10%; 
+ width: 100%;
+ justify-content:space-between;
+ font-size: x-large;
+}
+
+
+.InputContainer {
+    width: 210px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,rgb(247, 48, 48),rgb(255, 231, 231));
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+    margin-top: 1%;
+    padding-left: 2%;
+  }
+  
+  .input {
+    width: 180px;
+    height: 40px;
+    border: none;
+    outline: none;
+    caret-color: rgb(255, 81, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 15px;
+    letter-spacing: 0.8px;
+    color: rgb(19, 19, 19);
+    font-size: 13.4px;
+}
+
+    h2{ font-size: 2em;
+        padding-left: 10%;
+        margin-top: 0%;
+        color: rgb(249, 9, 9);
+         
+       text-shadow: 0 0 5px rgb(253, 252, 254),
+                    0 0 25px rgb(254, 253, 255),
+                    0 0 50px rgb(246, 244, 248),
+                    0 0 100px rgb(251, 250, 253),
+                    0 0 200px rgb(251, 251, 251);
+    } 
+    .menu{ display: flex; 
+        flex-wrap: nowrap;
+         justify-content:space-around;
+       
+         
+        }
+    .mn{
+        display: inline-block;
+        width: 200px;
+         height: 40px;
+         margin: 10px;
+       
+        text-align: end;
+        font-family: Broadway ;
+        float: left;
+       
+    
+    }
+    a:hover{
+      text-shadow: 0 0 5px rgb(253, 252, 254),
+      0 0 25px rgb(254, 253, 255),
+      0 0 50px rgb(246, 244, 248),
+      0 0 100px rgb(251, 250, 253),
+      0 0 200px rgb(251, 251, 251);
+      color: aliceblue;
+  }
+    nav{
+        width:100% ;
+    }
+    a{
+        color: rgb(254, 8, 8);
+        text-decoration: none;
+      margin-left: 3%;
+    }
+
+    .containereee {
+        --color: #a5a5b0;
+        --size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        font-size: var(--size);
+        user-select: none;
+        fill: var(--color);
+        margin-right: 3%;
+      }
+      
+      .containereee .bell-regular {
+        position: absolute;
+        animation: keyframes-fill .5s;
+      }
+      
+      .containereee .bell-solid {
+        position: absolute;
+        display: none;
+        animation: keyframes-fill .5s;
+      }
+      
+     
+      .containereee input:checked ~ .bell-regular {
+        display: none;
+      }
+      
+      .containereee input:checked ~ .bell-solid {
+        display: block;
+      }
+      .containereee input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+      
+      
+      @keyframes keyframes-fill {
+        0% {
+          opacity: 0;
+        }
+      
+        25% {
+          transform: rotate(25deg);
+        }
+      
+        50% {
+          transform: rotate(-20deg) scale(1.2);
+        }
+      
+        75% {
+          transform: rotate(15deg);
+        }
+      }
+      .button {
+        width: 170px;
+        height: 40px;
+        background-image: linear-gradient(rgb(230, 75, 75), rgb(192, 8, 8));
+        border: none;
+        border-radius: 50px;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        cursor: pointer;
+        box-shadow: 1px 3px 0px rgb(233, 9, 9);
+        transition-duration: .3s;
+        margin: 0%;
+        display: inline-block;
+       
+       
+      }
+      

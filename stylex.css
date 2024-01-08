@@ -1,0 +1,332 @@
+**{margin: 0%;
+    box-sizing: border-box;
+}
+body{
+height: 100vh;
+background-image: url(wallpaper.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 350px;
+width: 100%;
+}
+
+header{ display:flex ; 
+
+ height: 10%; 
+ width: 100%;
+ justify-content:space-between;
+ font-size: x-large;
+}
+.menu{ display: flex; 
+    flex-wrap: WRAP;
+     justify-content:space-around;
+     
+    }
+.mn{
+    width: 200px;
+     height: 40px;
+     margin: 10px;
+   
+    text-align: end;
+    font-family: Broadway ;
+    float: left;
+   
+
+}
+nav{
+    width:70% ;
+}
+a{
+    color: rgb(254, 8, 8);
+    text-decoration: none;
+  margin-left: 3%;
+}
+
+h2{ font-size: 2em;
+    padding-left: 10%;
+    margin-top: 0%;
+    color: rgb(249, 9, 9);
+     
+   text-shadow: 0 0 5px rgb(253, 252, 254),
+                0 0 25px rgb(254, 253, 255),
+                0 0 50px rgb(246, 244, 248),
+                0 0 100px rgb(251, 250, 253),
+                0 0 200px rgb(251, 251, 251);
+} 
+a:hover{
+    text-shadow: 0 0 5px rgb(253, 252, 254),
+    0 0 25px rgb(254, 253, 255),
+    0 0 50px rgb(246, 244, 248),
+    0 0 100px rgb(251, 250, 253),
+    0 0 200px rgb(251, 251, 251);
+    color: aliceblue;
+  
+}
+
+
+section{
+    height:80% ;
+    
+   
+}
+article{
+ height: 100%; width: 35%;
+float:left;
+font-size: 5em;
+font-weight: bolder;
+color: white;
+
+}
+p{font-family:Bodoni MT rgb(251, 251, 251) ;
+    margin-left: 2%;
+    margin-top: 20%;
+    font-size: 1em;
+} 
+
+footer{
+    height: 10%;
+  
+}
+.button {
+    width: 180px;
+    height: 40px;
+    background-image: linear-gradient(rgb(230, 75, 75), rgb(192, 8, 8));
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(233, 9, 9);
+    transition-duration: .3s;
+  }
+  
+ 
+  
+  
+  .button:active {
+    transform: translate(2px ,0px);
+    box-shadow: 0 0 5px rgb(253, 252, 254),
+    0 0 25px rgb(254, 253, 255),
+    0 0 50px rgb(246, 244, 248),
+    0 0 100px rgb(251, 250, 253),
+    0 0 200px rgb(251, 251, 251);
+    padding-bottom: 1px;
+  }
+  .InputContainer {
+    width: 210px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,rgb(247, 48, 48),rgb(255, 231, 231));
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+  }
+  
+  .input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    caret-color: rgb(255, 81, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 15px;
+    letter-spacing: 0.8px;
+    color: rgb(19, 19, 19);
+    font-size: 13.4px;
+  }
+  h3{
+    font-size: xx-large;
+  }
+
+  
+  .cards {
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    padding-LEFT: 15%;
+    padding-top: 5%;
+    
+  
+  }
+  
+  .cards .red {
+    background-image: url(images\ \(2\).jpg);
+    background-repeat: no-repeat;
+    filter: blur(10px);
+  }
+
+  
+  .cards .blue {
+    background-image: url(images\ \(3\).jpg);
+    background-repeat: no-repeat;
+    filter: blur(10px);
+  }
+  
+  .cards .green {
+    background-image: url(images\ \(1\).jpg);
+    filter: blur(10px);
+  }
+  
+  
+
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    width: 180px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+    margin-right:3%;
+  
+  }
+  
+  
+  
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+    filter: none;
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+  h1{font-size: 4em;
+    color: white;
+    padding-right: 10%;
+    text-shadow: 0 0 5px rgb(253, 252, 254),
+    0 0 25px rgb(254, 253, 255),
+    0 0 50px rgb(246, 244, 248),
+    0 0 100px rgb(251, 250, 253),
+    0 0 200px rgb(251, 251, 251);
+
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.waviy {
+    display: flex;
+    flex-direction:row;
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family: Bodoni MT rgb(251, 251, 251), cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 3s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+.container {
+    --color: #a5a5b0;
+    --size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    font-size: var(--size);
+    user-select: none;
+    fill: var(--color);
+    margin-right: 3%;
+  }
+  
+  .container .bell-regular {
+    position: absolute;
+    animation: keyframes-fill .5s;
+  }
+  
+  .container .bell-solid {
+    position: absolute;
+    display: none;
+    animation: keyframes-fill .5s;
+  }
+  
+ 
+  .container input:checked ~ .bell-regular {
+    display: none;
+  }
+  
+  .container input:checked ~ .bell-solid {
+    display: block;
+  }
+  
+
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  
+  @keyframes keyframes-fill {
+    0% {
+      opacity: 0;
+    }
+  
+    25% {
+      transform: rotate(25deg);
+    }
+  
+    50% {
+      transform: rotate(-20deg) scale(1.2);
+    }
+  
+    75% {
+      transform: rotate(15deg);
+    }
+  }
+  
+  footer{
+   width: 50%;
+  }
+  .category{
+    padding-left: 10%;
+    font-size: x-large;
+    list-style: circle;
+  }
+  b{
+    font-size: xx-large;
+    color: red;
+    text-shadow: 0 0 5px rgb(253, 252, 254),
+                0 0 25px rgb(254, 253, 255),
+                0 0 50px rgb(246, 244, 248),
+                0 0 100px rgb(251, 250, 253),
+                0 0 200px rgb(251, 251, 251);
+  }
+  
